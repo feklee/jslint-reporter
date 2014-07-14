@@ -1,6 +1,6 @@
 @ECHO OFF
 
-REM Temporary files work around: https://github.com/joyent/node/issues/3584
+REM Temporary files workaround: https://github.com/joyent/node/issues/3584
 
 node "%~dp0\wrapper.js" ^
     >"%TEMP%"\jslint-reporter.out ^
